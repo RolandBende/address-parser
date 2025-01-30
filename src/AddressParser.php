@@ -2,8 +2,6 @@
 
 namespace Rb\AddressParser;
 
-require_once __DIR__ . '/../vendor/autoload.php';
-
 class AddressParser
 {
     private const HOUSE_NUMBER_PATTERN = '/\s([0-9]+[A-Za-z\-\/]*[\dA-Za-z]*\.?)([\s\S]*)/';
