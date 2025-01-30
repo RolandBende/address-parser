@@ -2,7 +2,7 @@
 
 A simple PHP package for extracting location-related data (street name and house number) from Hungarian addresses.
 
-## Usage examples
+## Usage examples
 
 ### Extract house number
 
