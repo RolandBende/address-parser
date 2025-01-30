@@ -1,1 +1,0 @@
-{"version":1,"defects":{"AddressParserTest::testExtractHouseNumber":7,"AddressParserTest::testExtractStreetName":7},"times":{"AddressParserTest::testExtractHouseNumber":0.001,"AddressParserTest::testExtractStreetName":0}}
