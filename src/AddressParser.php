@@ -6,7 +6,6 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 class AddressParser
 {
-    // Improved regular expressions for capturing house number and street name
     private const HOUSE_NUMBER_PATTERN = '/\s([0-9]+[A-Za-z\-\/]*[\dA-Za-z]*\.?)([\s\S]*)/';
 
     /**
@@ -46,8 +45,8 @@ class AddressParser
     private static function extractUsingPattern(string $pattern, string $address): string
     {
         if (preg_match($pattern, $address, $matches)) {
-            return trim($matches[1] ?? ""); // Returns the first match if it exists
+            return trim($matches[1] ?? "");
         }
-        return ""; // If no match is found
+        return "";
     }
 }
